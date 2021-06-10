@@ -1,0 +1,213 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, 'Helvetica', sans-serif;
+}
+.title {
+  color: #02ccba;
+}
+.logo {
+width: 180px;
+height: 45 px;
+padding-top: 30px;
+padding-left: 50px;
+padding-right: 100px;
+margin-right: 50px;
+float: left;
+}
+.header {
+background-color:rgb(255, 255, 255);
+color: blue;
+height: 90px;
+width: 100%;
+position: fixed;
+  top: 0;
+  z-index: 10;
+
+}
+.header-left {
+  float: left;
+  margin-right: 20px;
+}
+.container {
+width: auto;
+padding: 0 0;
+margin: auto;
+}
+.header-list {
+float: right;
+margin-right: 25px;
+
+}
+
+.header-list li {
+list-style: none;
+float: left; 
+text-align: left;  
+padding: 10px;
+margin-top: 12px;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+opacity: 0.3;
+font-size: 20px;
+font-weight: 600;
+}
+.fa {
+  margin-right: 5px;
+}
+.menu-icon {
+  color: blue;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}
+
+.header-list li:hover {
+opacity: 1;
+}
+.btn {
+background-color: rgb(255, 208, 0);
+color: blue;
+border-radius: 8px;
+padding-top: 10px;
+float: left;
+opacity: 1;
+}
+
+
+.btn a{
+display: inline-block;
+margin: 20px;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn:hover {
+background-color:blue;
+color: white;
+}
+
+
+.banner-image {
+  background-image: url('Home-Header.png');
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.banner-image h1 {
+  font-size:50px;
+}
+.banner-image h1 {
+  font-size:32px;
+}
+
+.banner-text {
+  text-align: start;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+.lesson-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center
+  }
+  
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+  .testi-wrapper {
+    padding-top: 50px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  .testi {
+    float: left;
+    width: 50%;
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .lesson-icon p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
+  
+  }
+
+  /* .heading h3 {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+  } */
+  
+.footer {
+  background-color: rgb(0, 17, 255);
+  height: 200px;
+}
+
+.footer-left {
+  float: left;
+}
+.footer-left h1{
+  color: white;
+  font-size: 25px;
+  font-family: Helvetica;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-left: 20px;
+  padding-bottom: 2px;
+}
+/* h1 {
+  padding-bottom: 2px;
+} */
+.footer-list li{
+  float:left;
+  list-style: none;
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+.footer-right{
+  list-style: none;
+  padding-top: 20px;
+  padding-right: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  float: right;
+  color: white;
+}

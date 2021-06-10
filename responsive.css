@@ -1,0 +1,125 @@
+/*Untuk Tablet*/
+@media all and (max-width: 1000px) {
+    .lesson {
+      width: 50%;
+    }
+
+    .footer {
+      color: blue;
+      text-align: center;
+      height: 100%;
+      width: 100%;
+    }
+    .footer-left{
+        width: 100%;
+    }
+    .footer-list {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .footer-list li{
+        
+        text-align: center;
+        float: none;
+        
+      }
+    .footer-right {
+        text-align: center;
+        float: none;
+        width: 100%;
+      }
+    .btn {
+      width: 100%;
+    }
+
+    .banner-image {
+      text-align: left;
+    }
+
+    .header-list {
+      display: none;
+    }
+
+    .menu-icon {
+        color: blue;
+      display: block;
+    }
+
+    .banner-image h1 {
+      font-size: 27px;
+      line-height: 36px;
+    }
+
+    .banner-image h2 {
+      font-size: 22px;
+      line-height: 20px;
+    }
+    .testi-wrapper {
+        padding-top: 20px;
+    }
+}
+
+/*Untuk Smartphone*/
+@media all and (max-width: 670px) {
+.lesson {
+  width: 100%;
+}
+
+.footer {
+  color: blue;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+.footer-left{
+    width: 100%;
+}
+.footer-list {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.footer-list li{
+    
+    text-align: center;
+    float: none;
+    
+  }
+.footer-right {
+    text-align: center;
+    float: none;
+    width: 100%;
+  }
+.btn {
+  width: 100%;
+}
+
+.banner-image {
+  text-align: left;
+}
+
+.banner-text {
+    left: 25%;
+}
+
+.header-list {
+  display: none;
+}
+
+.menu-icon {
+    color: blue;
+  display: block;
+}
+
+.banner-image h1 {
+  font-size: 27px;
+  line-height: 36px;
+}
+
+.banner-image h2 {
+  font-size: 22px;
+  line-height: 20px;
+}
+.testi-wrapper {
+    padding-top: 20px;
+}
+}
